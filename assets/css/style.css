@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+/* flex container */
+header {
+  display: flex;
+  /* how d we want to distribute the space of items */
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+  background-color: #242526;
+}
+
+body {
+  line-height: 1.5;
+  background-color: #efe6eb;
+}
+h1 {
+  font-size: 4rem;
+  color: white;
+}
+
+a {
+  font-size: 3rem;
+  color: white;
+  text-decoration: none;
+  margin-left: 3rem;
+}
+a:hover {
+  font-size: 5rem;
+}
